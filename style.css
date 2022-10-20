@@ -1,0 +1,315 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*nav*/
+nav {
+    width: 100%;
+    background-color: #444;
+    display: flex;
+    position: fixed;
+    z-index: +4;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+
+}
+
+#rightnav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+
+}
+
+#each1 {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#each1 li {
+    width: 5%;
+    margin-left: 30px;
+}
+
+
+
+
+#liftnav {
+    width: 60%;
+    height: 100%;
+    display: flex;
+
+}
+
+#each2 {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+#er{
+    width: 6%;
+    margin-right: 10px;
+}
+#each2 li {
+
+    width: 18%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#each2 #logo {
+    height: 70%;
+    width: 20%;
+    margin-right: 10px;
+}
+
+#each2 #logo img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#each2 li a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+}
+
+#each2 li:hover {
+    background-color: rgb(96, 94, 94);
+}
+
+/*end nav*/
+/*start*/
+.start {
+    width: 100%;
+    height: 700px;
+    background: url(images/background.jpg);
+    color: #222222;
+    background-size: cover;
+    background-position: center 48%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+#startt {
+    width: 100%;
+    height: 100%;
+    padding-top: 300px;
+
+}
+
+#start1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+
+#start1 p {
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+#search {
+    margin-top: 20px;
+    position: relative;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    z-index: 0;
+    left: 30%;
+
+}
+
+#search input {
+    border: 1px solid #ccc;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    outline: none;
+    direction: rtl;
+
+}
+
+#search button {
+    width: 60px;
+    height: 50px;
+    background-color: rgb(118, 194, 5);
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 5px;
+    color: aliceblue;
+    
+
+}
+#search button:hover{
+    background-color: rgb(73, 140, 73);
+}
+
+/*--peoducts--*/
+.products{
+    width: 100%;
+    height: 500px;
+}
+#title1 {
+    width: 100%;
+    height: 100px;
+}
+
+#title1 h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+    
+}
+#pro1{
+    margin-top: 20px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+#card {
+    width: 23%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+
+}
+#card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#card h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+/*center*/
+.center{
+    width: 100%;
+    height: auto;
+    background-color: rgba(204, 204, 204, 0.441);
+}
+
+#center2{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+#a{
+    width: 20%;
+    height: 50%;
+    margin-top: 50px;
+
+
+}
+
+#center2 a{
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: green;
+    border: 1px solid green;
+
+}
+#center2 a:hover{
+    background-color: green ;
+    color: white;
+}
+#center2 p {
+    font-size: 30px;
+
+}
+
+#qwe {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#center3{
+    width: 18%;
+    height: 220px;
+    border-radius: 9px;
+}
+#carddds {
+
+    width: 100%;
+    direction: rtl;
+}
+#carddds a{
+    margin-top: 10px;
+}
+
+.lasttable{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+#list{
+    width: 70%;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+}
+#list ul{
+    width: 20%;
+    list-style-type: none;
+}
+#co{
+    margin-bottom: 20px;
+    font-size: larger;
+}
+#list ul a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(125, 193, 23);
+}
+#left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
